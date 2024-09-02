@@ -1,0 +1,19 @@
+{
+  "name": "Assignment-L1-1DV610",
+  "version": "1.0.0",
+  "description": "A simple web application to start again in 1DV610",
+  "type": "module",
+  "browser": "src/js/index.js",
+  "scripts": {
+    "dev": "vite",
+    "lint": "npx eslint ./src || exit 0",
+    "lint:fix": "npx eslint ./src --fix || exit 0"
+  },
+  "author": "Jennifer von Trotta-Treyden (jv222th)",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@lnu/eslint-config": "^1.1.10",
+    "vite": "^5.4.2"
+  }
+}
