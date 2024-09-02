@@ -2,4 +2,8 @@
 
 ### It takes your name and an animal of your choice (between a dog or a cat) as an input. It returns a welcome message with some facts about a random cat/dog breed.
 
+![start](/img/start.PNG)
+![cat](/img/cat.PNG)
+![dog](/img/dog.PNG)
+
 ### Example video: https://jmp.sh/kEM0wFrm
