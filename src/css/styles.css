@@ -1,0 +1,86 @@
+.hidden {
+  display: none !important;
+}
+
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c1f7bc;
+}
+
+#inputForm {
+  display: flex;
+  width: 600px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+#inputForm h1 {
+  font-weight: bolder;
+}
+
+#radioAnswers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #303030;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 20px;
+  padding-top: 40px;
+  width: 130px;
+  height: 100px;
+  background-color: #397441;
+  box-shadow: 5px 5px 10px 2px #303030;
+  color: #aedb83;
+}
+
+#radioAnswers h2 {
+  margin: 10px;
+  width: max-content;
+  cursor: default;
+}
+
+#radioBtns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#radioBtns label {
+  margin: 5px;
+  font-weight: bold;
+  width: max-content;
+  cursor: pointer;
+}
+
+#nameInput {
+  width: 250px;
+  height: 2rem;
+  font-size: 1.5rem;
+}
+
+#nameSubmitBtn {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #397441;
+  box-shadow: 5px 5px 10px 2px #303030;
+  color: #aedb83;
+  padding: 8px;
+}
+
+#nameSubmitBtn:hover {
+  background-color: #1f4223;
+  box-shadow: 4px 4px 5px 1px #303030;
+  color: #beeb94;
+  cursor: pointer;
+}

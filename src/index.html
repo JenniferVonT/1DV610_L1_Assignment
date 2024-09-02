@@ -8,6 +8,23 @@
   <script type="module" src="./js/index.js"></script>
 </head>
 <body>
-  
+  <form id="inputForm" method="POST">
+    <h1>Try it out!</h1>
+    <input type="text" id="nameInput" autocomplete="off" placeholder="What's your name?">
+      <fieldset id="radioAnswers">
+        <h2>Pick one!</h2>
+        <div id="radioBtns">
+          <label>
+            <input type="radio" name="answer" value="cat">CAT
+          </label>
+          <label>
+            <input type="radio" name="answer" value="dog">DOG
+          </label>
+        </div>
+      </fieldset>
+    <input type="submit" value="See what happens!" id="nameSubmitBtn">
+  </form>
+
+  <div id="inputResponse" class="hidden"></div>
 </body>
 </html>
