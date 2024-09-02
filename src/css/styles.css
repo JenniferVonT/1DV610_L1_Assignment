@@ -85,3 +85,27 @@ body {
   color: #beeb94;
   cursor: pointer;
 }
+
+#inputResponse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+
+#inputResponse ul {
+  padding: 0;
+  margin: 0;
+  max-width: 550px;
+}
+
+#description {
+  width: 500px;
+  text-wrap: wrap;
+}
+
+#temperament {
+  text-wrap: wrap;
+  font-size: 1.06rem;
+}

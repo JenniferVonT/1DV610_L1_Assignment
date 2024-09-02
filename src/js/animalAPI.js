@@ -29,7 +29,7 @@ export class AnimalAPI {
     this.#dogApiKey = 'live_8j4ldt618sDExuPdSlKC4ocQVUkhLgLm5D4jJtiGvLIIigLW4yD8stOm5680ykJx'
     this.DOGAPI = 'https://api.thedogapi.com/v1/images/'
     this.CATAPI = 'https://api.thecatapi.com/v1/images/'
-    this.currentAnimal = {}
+    this.animal = {}
   }
 
   /**
@@ -101,12 +101,18 @@ export class AnimalAPI {
    *
    * @returns {string} - an image url.
    */
-  getImage () {}
+  getImage () {
+    return this.animal.image
+  }
 
   /**
-   * Gets information about the current cat/dog.
+   * Gets information about the current cat/dog in the class.
    *
    * @returns {object} - Contains: breed, origin, temperament, weight (kg), lifespan, description and a wiki url.
    */
-  getAnimalInfo () {}
+  getAnimalFacts () {
+    const { image, id, ...animalFacts } = this.animal
+
+    return animalFacts
+  }
 }
