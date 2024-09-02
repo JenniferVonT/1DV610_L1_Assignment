@@ -15,7 +15,7 @@
         <h2>Pick one!</h2>
         <div id="radioBtns">
           <label>
-            <input type="radio" name="answer" value="cat">CAT
+            <input type="radio" name="answer" value="cat" checked>CAT
           </label>
           <label>
             <input type="radio" name="answer" value="dog">DOG
@@ -25,6 +25,20 @@
     <input type="submit" value="See what happens!" id="nameSubmitBtn">
   </form>
 
-  <div id="inputResponse" class="hidden"></div>
+  <div id="inputResponse" class="hidden">
+    <h2>WELCOME <b id="username"></b>!</h2>
+    <p>Here are some facts about the <p id="breed"></p>!</p>
+    <ul>
+      <li>Country of origin: <b id="origin"></b></li>
+      <li>Temperament: <b id="temperament"></b></li>
+      <li>Avg Weight: <b id="weight"></b></li>
+    </ul>
+
+    <p id="description"></p>
+
+    <img id="animalImg" alt="animal">
+
+    <p>Read more about the breed <a id="wiki">HERE</a></p>
+  </div>
 </body>
 </html>
