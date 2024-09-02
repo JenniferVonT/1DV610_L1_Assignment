@@ -24,6 +24,7 @@ body {
 
 #inputForm h1 {
   font-weight: bolder;
+  cursor: default;
 }
 
 #radioAnswers {
