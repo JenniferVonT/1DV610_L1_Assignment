@@ -6,5 +6,5 @@
 ![cat](/img/cat.PNG)
 ![dog](/img/dog.PNG)
 
-### Example video: https://jmp.sh/kEM0wFrm
+### Example video: [LINK](https://jmp.sh/kEM0wFrm)
 ### Deployed version: [LINK](https://main--fascinating-platypus-955b9e.netlify.app/)
